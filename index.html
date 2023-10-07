@@ -78,6 +78,20 @@
             font-size: 2rem;
             margin: 70px 0;
         }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn {
+
+           padding: 12px;
+           background-color: #0C356A;
+           color: white;
+           border: 2px solid white;
+           border-radius: 6px;
+           font-size: 20px;
+           cursor: pointer;
+
+        }
 
         .rightsection img {
             /* background-color: red; */
@@ -102,12 +116,32 @@
         .secondsection h1 {
             font-size: 1.9rem;
         }
+        footer{ 
+            background-color: #0C356A;
+        }
         .footer{
             display: flex;
-            background-color: #0C356A;
-            height: 233px;
+            justify-content: space-evenly;
             padding: 23px 122px;
         }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        .footer-rights{
+            text-align: center;
+            color: grey;
+            padding: 12px;
+
+        }
+        @media screen and (max-width: 740px) {
+           body{
+            background-color: red;
+          
+        }
+        
     </style>
 </head>
 
@@ -134,6 +168,10 @@
                     <div class="purple"><span id="element"></span>
                     </div>
                 </div>
+                <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+                </div>
             </div>
             <div class="rightsection">
                 <img src="—Pngtree—modern flat design concept of_5332895.png" alt="developer picture">
@@ -150,11 +188,36 @@
     <footer>
         <div class="footer">
             <div class="first">
-                <h3>Malay developer portfolio</h3>
+                <h3>Malay's developer portfolio</h3>
             </div>
-            <div class="second"></div>
-            <div class="third"></div>
-            <div class="fourth"></div>
+            <div class="second">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>services</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>services</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>services</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-rights">
+           copyright &#169 Malayportfolio.com| All Rights Reserved
         </div>
     </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
